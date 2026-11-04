@@ -1,0 +1,7 @@
+gradio>=6.0,<7
+textblob>=0.18,<1
+scikit-learn>=1.5,<2
+google-genai>=1.0,<2
+Pillow>=11,<13
+pypdf>=6,<7
+pydantic>=2.8,<3
