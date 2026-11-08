@@ -1160,5 +1160,11 @@ def launch_app(**kwargs):
     app.launch(theme=theme,css=CSS,**kwargs)
     return app
 
-if __name__=='__main__':
-    launch_app(server_name=os.getenv('SERVER_NAME','127.0.0.1'),server_port=int(os.getenv('PORT','7860')),inbrowser=True)
+
+if __name__ == '__main__':
+    launch_app(
+        server_name='0.0.0.0',
+        server_port=int(os.getenv('PORT', '10000')),
+        inbrowser=False
+    )
+
